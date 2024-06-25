@@ -224,10 +224,13 @@ a:visited {
     background-color: #3882f6;
     border-radius: 12px;
     width: 70%;
-    height: 160px;
+    height: auto; /* Change height to auto to accommodate text wrapping */
+    padding: 20px; /* Add padding for spacing */
     display: flex;
-    justify-content: space-around;
+    
+    justify-content: center;
     align-items: center;
+   
 }
 
 .fourthfourth {
@@ -272,3 +275,4 @@ a:visited {
 .cta p {
     margin: 0;
 }
+
